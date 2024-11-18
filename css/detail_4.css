@@ -1,0 +1,99 @@
+body {
+  background-color: #1d1f22;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: #232529;
+  padding: 0 40px;
+  border-bottom: 1.5px solid #000000;
+}
+.topbar .topbar-l {
+  display: flex;
+  align-items: center;
+}
+.topbar .topbar-l > li {
+  margin-right: 40px;
+  cursor: pointer;
+}
+.topbar .topbar-l > li a {
+  font-size: 12px;
+  color: #808290;
+}
+.topbar .topbar-l > li:hover a {
+  font-size: 16px;
+  color: #fff;
+}
+.topbar .topbar-r {
+  display: flex;
+  align-items: center;
+}
+.topbar .topbar-r > li {
+  position: relative;
+  margin: 0 20px;
+}
+.topbar .topbar-r > li .search-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.topbar .topbar-r > li .search {
+  width: 293px;
+  height: 40px;
+  background-color: #292d31;
+}
+.topbar .topbar-r > li:nth-child(3n) {
+  color: #4a4a4a;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 807px;
+  background-image: url(../img/bgc_4.png);
+  background-size: 100% 807px;
+}
+main h1 {
+  color: #fff;
+  font-size: 26px;
+  margin-top: 224px;
+}
+main .form {
+  width: 1640px;
+  height: 695px;
+  padding: 40px 40px 40px 200px;
+  color: #fff;
+  background: #232529;
+  margin-top: 104px;
+}
+main .form fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+main .form fieldset label {
+  margin: 20px 0;
+}
+main .form fieldset input {
+  width: 507px;
+  height: 54px;
+  background: #1d1f22;
+  color: #fff;
+  border: 1px solid #6a6a6a;
+}
+main .form fieldset .btn {
+  width: 271px;
+  height: 54px;
+  background: #0f5bff;
+  margin-top: 24px;
+}
+.cookies-message {
+  color: #fff;
+  position: relative;
+  /* Make sure the element is positioned */
+  z-index: 9999;
+  /* make cookies over all layers */
+}
